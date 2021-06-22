@@ -20,8 +20,7 @@ namespace NUnitTests
         [SetUp]
         public void Setup()
         {
-            //ChromeOptions chromeOptions = new ChromeOptions();
-            //chromeOptions.AddArgument("--incognito");
+       
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://ita-social-projects.github.io/GreenCityClient/#/");
             driver.Manage().Window.Maximize();
